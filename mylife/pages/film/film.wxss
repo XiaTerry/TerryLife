@@ -1,0 +1,63 @@
+/* pages/film/film.wxss */
+
+.movie{
+  display: flex;
+  /* background: #f0f; */
+  height: 300rpx;
+  width: 100%;
+  flex-direction: row;
+  padding-top: 20rpx;
+}
+.movie-img{
+  padding-left:20rpx;
+  border-radius: 30rpx;
+  flex-grow: 1;
+  width: 0;
+}
+.movie-img image{
+  width: 100%;
+  height: 300rpx;
+}
+.movie-title{
+  margin-left: 10rpx;
+  flex-grow: 2;
+  width: 0;
+  color: #21312a;
+  /* font-size: 35rpx; */
+}
+.movie-title view{
+  margin-top: 20rpx;
+}
+.average{
+  color:#faaf00;
+  font-weight: 700;
+}
+.title{
+  color: #000;
+  font-weight: 600;
+}
+.customer-average{
+  color: #666;
+  font-size: 28rpx;
+}
+.casts{
+  font-size: 28rpx;
+  color: #666;
+  position: relative;
+}
+.cast{
+  font-size: 28rpx;
+  color: #666;
+}
+.btn{
+  position: absolute;
+  top: 50rpx;
+  right: 20rpx;
+  background-color: #f03d37;
+}
+.btn-hover {
+  background-color: red;
+}
+.button-hover {
+  background-color: #fff;
+}

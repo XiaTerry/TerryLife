@@ -1,0 +1,19 @@
+<!--pages/film/film.wxml-->
+    <view bindtap='gotoDetail'  data-movieid="{{item.id}}" class='movie'    wx:for="{{movieList}}" wx:key="{{item.id}}">
+    <view class='movie-img'  >
+      <image src='{{item.images.small}}'></image>
+    </view>
+    <view class='movie-title'>
+      <view>
+        <text class='title'>{{item.title}}</text>
+      </view>
+      <view class='customer-average'>猫眼评分
+        <text class="average">{{item.rating.average}}</text>
+      </view>
+      <view class='casts'>主演：
+        <text class='cast' wx:for="{{item.casts}}" :key="item.id" wx:key="index">{{item.name}}，</text><button class='btn' size='mini'>购票</button>
+      </view>
+    </view>
+</view>
+
+

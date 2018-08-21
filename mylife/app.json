@@ -1,0 +1,58 @@
+{
+  "pages":[
+    "pages/filmdetail/filmdetail",
+    "pages/film/film",
+    "pages/swiper/swiper",
+  
+    "pages/cinema/cinema",
+    "pages/mine/mine",
+   
+    "pages/hotwords/hotwords"
+  
+    
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#e54847",
+    "navigationBarTitleText": "TerryMyLife",
+    "navigationBarTextStyle":"#fff",
+    "backgroundColor":"#000"
+  },
+  "tabBar":{
+    "backgroundColor":"#fafafa",
+    "color":"#6f6f6f",
+    "selectedColor":"#f03d37",
+    "list": [
+      {
+        "pagePath": "pages/film/film",
+        "text": "电影",
+        "iconPath":"images/film.png",
+        "selectedIconPath":"images/film-active.png"
+      },
+      {
+        "pagePath": "pages/cinema/cinema",
+        "text": "影院",
+        "iconPath": "images/cinema.png",
+        "selectedIconPath": "images/cinema-active.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "images/mine.png",
+        "selectedIconPath": "images/mine-active.png"
+      },
+      {
+        "pagePath": "pages/hotwords/hotwords",
+        "text": "热词",
+        "iconPath": "images/mine.png",
+        "selectedIconPath": "images/mine-active.png"
+      },
+      {
+        "pagePath": "pages/swiper/swiper",
+        "text": "轮播",
+        "iconPath": "images/mine.png",
+        "selectedIconPath": "images/mine-active.png"
+      }
+    ]
+  }
+}

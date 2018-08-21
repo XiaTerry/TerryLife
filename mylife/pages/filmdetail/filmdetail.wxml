@@ -1,0 +1,29 @@
+<!--pages/filmdetail/filmdetail.wxml-->
+<view class="map_container"> 
+  <map class="map" id="map" longitude="{{longitude}}" latitude="{{latitude}}" scale="14" show-location="true" markers="{{markers}}" bindmarkertap="makertap"></map> 
+</view> 
+<view class="rgc_info"> 
+  <text>{{rgcData.address}}</text> 
+  <text>{{rgcData.desc}}</text> 
+  <text>{{rgcData.business}}</text> 
+</view>
+
+<view class='filmdetail'>
+<view class='detail'>
+  <view class='img'>
+      <image></image>
+    </view>
+    <view class='info'>
+      <view class='title'></view>
+      <view class='xtitle'></view>
+      <view class='genres'></view>
+      <view class='countries'></view>
+      <view class='ratings_count'></view>
+    </view>
+</view>
+ 
+  <view class='btn'>
+    <button size='mini' plain='ture'><image class='xin' src='/images/xin.png'></image> 想看</button>
+    <button size='mini'  plain='ture'><image class='xin' src='/images/xing.png'></image>看过</button>
+  </view>
+</view>

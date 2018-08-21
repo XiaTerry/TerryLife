@@ -1,0 +1,56 @@
+/* pages/filmdetail/filmdetail.wxss */
+.map_container{ 
+    height: 200px; 
+    width: 100%; 
+} 
+
+.map { 
+    height: 100%; 
+    width: 100%; 
+}
+
+.filmdetail{
+  position: relative;
+  height: 500rpx;
+  background: firebrick;
+  overflow: hidden;
+}
+.detail{
+  display: flex;
+}
+.btn{
+  text-align: center;
+  bottom:20rpx;
+  position: absolute;
+}
+.btn button{
+  margin-left:140rpx;
+}
+.xin{
+  /* margin-top: 20rpx; */
+  width: 32rpx;
+  height: 32rpx;
+}
+.img{
+  flex-grow: 1;
+  margin-top: 20rpx;
+  margin-left: 20rpx;
+  height: 300rpx;
+  width: 200rpx;
+  background: #0f0;
+  float:left;
+}
+.img image{
+  width: 100%;
+  height: 300rpx;
+}
+.info{
+  flex-grow: 2;
+  margin-top: 20rpx;
+  margin-right: 20rpx;
+  margin-left: 20rpx;
+  height: 300rpx;
+  width: 400rpx;
+  float: left;
+  background: #fff;
+}
